@@ -1,4 +1,4 @@
-package Mememto;
+package Memento;
 
 public class Test {
     public static void main(String[] args) {
