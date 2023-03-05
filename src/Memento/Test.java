@@ -7,9 +7,9 @@ public class Test {
         System.out.println(editor.getContent());
         editor.setContent("b");
         System.out.println(editor.getContent());
-        System.out.println(editor.getOldContent());
+        System.out.println(editor.getPrevContent());
         editor.undo();
         System.out.println(editor.getContent());
-        System.out.println(editor.getOldContent());
+        System.out.println(editor.getPrevContent());
     }
 }

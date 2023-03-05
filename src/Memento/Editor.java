@@ -2,23 +2,23 @@ package Memento;
 
 public class Editor {
     private String content;
-    private String oldContent;
+    private String prevContent;
 
 
-    public String getOldContent() {
-        return oldContent;
+    public String getPrevContent() {
+        return prevContent;
     }
 
     public void undo(){
-        if (oldContent.equals(null))
+        if (prevContent.equals(null))
             return;
-        else if (oldContent.length() > 0) {
-            content = oldContent;
+        else if (prevContent.length() > 0) {
+            content = prevContent;
         }
     }
     
     public void setContent(String content) {
-        this.oldContent = getContent();
+        this.prevContent = getContent();
         this.content = content;
     }
 
