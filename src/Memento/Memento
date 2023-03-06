@@ -2,9 +2,9 @@ THE MEMENTO PATTERN
 We use the Memento pattern to implement undo mechanism in our classes
 In order to implement the single responsibility principle in our application, we cant store the current state and history in the same class.
 COMPONENTS OF THE MEMENTO PATTERN
--The Originator class
+-The Originator class(Editor)
  this is our main class, which should have a current state and an history.
--The Memento class
+-The Memento class(EditorState)
  this class represents the current state of our application.
 -Caretaker class
  this class store the history of our application
