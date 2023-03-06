@@ -4,7 +4,6 @@ public class Editor {
     private String content;
     private String prevContent;
 
-
     public String getPrevContent() {
         return prevContent;
     }
