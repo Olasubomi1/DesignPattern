@@ -14,4 +14,8 @@ public class Editor {
     public String getContent() {
         return content;
     }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
 }
