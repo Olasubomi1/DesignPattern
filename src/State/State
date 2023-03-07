@@ -1,0 +1,12 @@
+THE STATE PATTERN
+The state pattern allows an object to behave differently when its state changes
+
+COMPONENTS OF THE STATE PATTERN
+-CONTEXT
+ This class uses the current state for its utility
+-STATE
+    This is an abstract class with abstract methods that represents a current state(polymorphism).
+-CONCRETESTATEA
+    This class extends the state class and has a concrete implementation for the abstract methods
+-CONCRETESTATEB
+    This class also extends the state class and has a concrete implementation for the abstract methods.
