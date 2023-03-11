@@ -3,7 +3,7 @@ package State;
 public class SelectionTool implements Tool{
     @Override
     public void mouseDown() {
-        System.out.println("Draw icon");
+        System.out.println("Selection icon");
     }
 
     @Override
