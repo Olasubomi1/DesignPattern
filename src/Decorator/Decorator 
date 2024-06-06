@@ -1,0 +1,6 @@
+THE DECORATOR PATTERN
+We use the Decorator pattern to add additional behaviour to an existing object
+COMPONENT OF THE DECORATOR PATTERN
+The COMPONENT(Interface Stream)
+The ConcreteComponent(CloudStream Implementation)
+The Decorator(CompressedCloudStream and EncryptedCloudStream implementations)
